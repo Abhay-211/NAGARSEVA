@@ -194,7 +194,7 @@ uvicorn main:app --reload
 </td>
 
 <td align="center">
-<img src="https://ui-avatars.com/api/?name=>Ashray+Bhasin&background=10b981&color=fff&size=120" width="100px"/><br/>
+<img src="https://ui-avatars.com/api/?name=Ashray+Bhasin&background=10b981&color=fff&size=120" width="100px"/><br/>
 <b>Ashray Bhasin</b><br/>
 ⚙️ Backend Engineer<br/>
 🔐 APIs • Database • Authentication<br/>
