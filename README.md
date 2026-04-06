@@ -162,15 +162,81 @@ uvicorn main:app --reload
 ---
 ---
 
-## 👥 TEAM- BUG CREATORS  
+---
 
-| Name | Role |
-|------|------|
-| Abhay Chauhan | Full Stack Developer / AI Integration |
-| Priyansh Sharma | Frontend Developer |
-| Ashray Bhasin | Backend Developer |
-| Insha Tanveer | UI/UX Designer |
-| Adamya Agarwal | AI Integration / Performance Marketer |
+## 👥 Meet the Team 🚀  
+
+<p align="center">
+  <b>Building NagarSeva with innovation, collaboration, and impact</b>
+</p>
+
+---
+
+### 🧠 Core Team  
+
+<table>
+<tr>
+
+<td align="center">
+<img src="https://ui-avatars.com/api/?name=Abhay+Chauhan&background=2563eb&color=fff&size=120" width="100px"/><br/>
+<b>Abhay Chauhan</b><br/>
+🚀 Founder & Full Stack Developer<br/>
+🧠 AI Integration • Backend • System Design<br/>
+<a href="https://github.com/Abhay-211">GitHub</a>
+</td>
+
+<td align="center">
+<img src="https://ui-avatars.com/api/?name=Member+2&background=0ea5e9&color=fff&size=120" width="100px"/><br/>
+<b>Priyansh Sharma 2</b><br/>
+🎨 Frontend Engineer<br/>
+⚡ UI/UX • React • Performance<br/>
+<a href="#">GitHub</a>
+</td>
+
+<td align="center">
+<img src="https://ui-avatars.com/api/?name=Member+3&background=10b981&color=fff&size=120" width="100px"/><br/>
+<b>Ashray Bhasin</b><br/>
+⚙️ Backend Engineer<br/>
+🔐 APIs • Database • Authentication<br/>
+<a href="#">GitHub</a>
+</td>
+
+<td align="center">
+<img src="https://ui-avatars.com/api/?name=Member+4&background=f59e0b&color=fff&size=120" width="100px"/><br/>
+<b>Insha Tanveer</b><br/>
+📊 Product & Strategy<br/>
+📈 Research • Analytics • Scaling<br/>
+<a href="#">GitHub</a>
+</td>
+
+<td align="center">
+<img src="https://ui-avatars.com/api/?name=Adamya+Agarwal&background=f59e0b&color=fff&size=120" width="100px"/><br/>
+<b>Adamya Agarwal</b><br/>
+🤖 AI & Product Strategist<br/>
+🧠 AI Agents • Growth • Product Marketing<br/>
+<a href="#">GitHub</a>
+</td>
+
+
+</tr>
+</table>
+
+---
+
+### ⚡ Team Highlights  
+
+- 🧠 Strong full-stack architecture design  
+- 🤖 AI-powered automation integration  
+- 🎯 Real-world problem solving approach  
+- ⚡ Rapid prototyping & deployment  
+
+---
+
+<p align="center">
+  <b>“Alone we code, together we build impact.”</b>
+</p>
+
+---
 
 ---
 
