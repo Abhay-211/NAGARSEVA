@@ -186,15 +186,15 @@ uvicorn main:app --reload
 </td>
 
 <td align="center">
-<img src="https://ui-avatars.com/api/?name=Member+2&background=0ea5e9&color=fff&size=120" width="100px"/><br/>
-<b>Priyansh Sharma 2</b><br/>
+<img src="https://ui-avatars.com/api/?name=Priyansh+Sharma&background=0ea5e9&color=fff&size=120" width="100px"/><br/>
+<b>Priyansh Sharma </b><br/>
 🎨 Frontend Engineer<br/>
 ⚡ UI/UX • React • Performance<br/>
 <a href="#">GitHub</a>
 </td>
 
 <td align="center">
-<img src="https://ui-avatars.com/api/?name=Member+3&background=10b981&color=fff&size=120" width="100px"/><br/>
+<img src="https://ui-avatars.com/api/?name=>Ashray+Bhasin&background=10b981&color=fff&size=120" width="100px"/><br/>
 <b>Ashray Bhasin</b><br/>
 ⚙️ Backend Engineer<br/>
 🔐 APIs • Database • Authentication<br/>
@@ -202,7 +202,7 @@ uvicorn main:app --reload
 </td>
 
 <td align="center">
-<img src="https://ui-avatars.com/api/?name=Member+4&background=f59e0b&color=fff&size=120" width="100px"/><br/>
+<img src="https://ui-avatars.com/api/?name=Insha+Tanveer&background=f59e0b&color=fff&size=120" width="100px"/><br/>
 <b>Insha Tanveer</b><br/>
 📊 Product & Strategy<br/>
 📈 Research • Analytics • Scaling<br/>
@@ -211,7 +211,7 @@ uvicorn main:app --reload
 
 <td align="center">
 <img src="https://ui-avatars.com/api/?name=Adamya+Agarwal&background=f59e0b&color=fff&size=120" width="100px"/><br/>
-<b>Adamya Agarwal</b><br/>
+<b>c</b><br/>
 🤖 AI & Product Strategist<br/>
 🧠 AI Agents • Growth • Product Marketing<br/>
 <a href="#">GitHub</a>
