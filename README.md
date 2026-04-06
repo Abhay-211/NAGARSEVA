@@ -1,64 +1,200 @@
-# 🚀 NagarSeva AI – Smart Civic Complaint System  
+# 🚀 NagarSeva AI  
+### 🏙️ Smart Civic Complaint Management System powered by AI  
 
-🌍 Transforming civic issue reporting with AI-powered automation & real-time tracking
+<p align="center">
+  <b>Transforming civic issue reporting with automation, transparency, and real-time tracking</b>
+</p>
 
 ---
 
-## 📌 Overview  
-NagarSeva AI is a modern civic complaint platform that allows citizens to report issues like potholes, garbage, water problems, etc., while enabling authorities to manage and resolve them efficiently.
+## 🧩 Overview  
 
-Built for hackathon impact + real-world scalability
+**NagarSeva AI** is a full-stack civic complaint management platform that enables citizens to report urban issues like potholes, garbage, water supply, and infrastructure failures.
+
+The platform uses **modern web technologies + AI integration** to create a scalable, transparent, and efficient system for smart governance.
 
 ---
 
 ## 🎯 Problem Statement  
-- No centralized complaint system  
-- Lack of transparency  
-- Slow resolution  
-- Complaints lost across platforms  
+
+Urban civic systems suffer from:  
+- ❌ Fragmented complaint systems  
+- ❌ Lack of transparency  
+- ❌ Slow issue resolution  
+- ❌ Poor tracking and accountability  
 
 ---
 
-## 💡 Our Solution  
-- Centralized complaint platform  
-- AI-based complaint categorization  
-- Real-time tracking system  
-- Scalable backend architecture  
+## 💡 Solution  
+
+NagarSeva provides:  
+- ✅ Centralized complaint platform  
+- ✅ AI-based complaint categorization  
+- ✅ Real-time tracking system  
+- ✅ Scalable backend architecture  
 
 ---
 
-## 🧠 Key Features  
+## ✨ Key Features  
 
-- Easy complaint submission  
-- AI-powered classification  
-- User dashboard  
-- Secure authentication (JWT)  
-- Complaint tracking system  
-- Admin control panel  
-
----
-
-## 🏗️ Tech Stack  
-
-### Frontend  
-- Next.js (React)  
-- Tailwind CSS  
-
-### Backend  
-- FastAPI (Python)  
-- REST APIs  
-- JWT Authentication  
-
-### Database  
-- MongoDB  
-
-### Deployment  
-- Frontend: Vercel  
-- Backend: Render  
-
-### AI Integration  
-- OpenAI APIs  
+- 📝 Easy complaint submission  
+- 🤖 AI-powered classification  
+- 🔐 Secure authentication (JWT)  
+- 📊 Dashboard for tracking  
+- 🗂️ Complaint lifecycle management  
+- 👨‍💼 Admin panel  
 
 ---
 
-## 🧩 Project Structure  
+## 🏗️ System Architecture  
+
+---
+
+## ⚙️ Tech Stack  
+
+### 🎨 Frontend  
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
+
+---
+
+### ⚙️ Backend  
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+</p>
+
+---
+
+### 🗄️ Database  
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</p>
+
+---
+
+### ☁️ Deployment  
+<p>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
+</p>
+
+---
+
+### 🧠 AI Integration  
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+</p>
+
+---
+
+## 📂 Project Structure  
+NAGARSEVA/
+│
+├── frontend/ # Next.js frontend
+├── backend/ # FastAPI backend
+└── README.md
+
+---
+
+## ⚙️ Local Setup  
+
+### 🔹 Clone Repository  
+git clone https://github.com/Abhay-211/NAGARSEVA.git
+
+cd NAGARSEVA
+
+---
+
+### 🔹 Backend Setup  
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+
+---
+
+## 🌐 Live Demo  
+
+- 🔗 Frontend: https://nagarseva-zeta.vercel.app/  
+- 🔗 Backend: https://nagarseva-api.onrender.com
+- 🔗 Webapp:  https://nagarseva-zeta.vercel.app/
+
+---
+
+## 🔐 Authentication Flow  
+
+- User registers and logs in  
+- Passwords are securely hashed using bcrypt  
+- JWT tokens are generated for authentication  
+- Protected routes require valid tokens  
+
+---
+
+## 🚀 Future Enhancements  
+
+- 📍 Geo-tagging complaints  
+- 📱 Mobile app  
+- 🤖 AI chatbot  
+- 🏛️ Government integration  
+- 📊 Advanced analytics dashboard  
+
+---
+
+## 🧪 Testing  
+
+- API tested using FastAPI Swagger (`/docs`)  
+- Authentication and edge cases validated  
+
+---
+
+## 🏆 Hackathon Impact  
+
+- 🌍 Solves real civic problems  
+- ⚡ Built with scalable architecture  
+- 🤖 AI-powered automation  
+- 📈 High real-world usability  
+
+---
+---
+
+## 👥 TEAM- BUG CREATORS  
+
+| Name | Role |
+|------|------|
+| Abhay Chauhan | Full Stack Developer / AI Integration |
+| Priyansh Sharma | Frontend Developer |
+| Ashray Bhasin | Backend Developer |
+| Insha Tanveer | UI/UX Designer |
+| Adamya Agarwal | AI Integration / Performance Marketer |
+
+---
+
+
+## 👨‍💻 Author  
+
+**Abhay Chauhan**  
+AI Enthusiast | Full Stack Developer  
+
+
+
+
+
+---
+
+## ⭐ Support  
+
+If you like this project:  
+- ⭐ Star this repo  
+- 🔁 Share it  
+- 🤝 Contribute  
+
+---
+
+<p align="center">
+  <b>"Building smarter cities with AI-driven solutions."</b>
+</p>
