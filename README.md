@@ -211,7 +211,7 @@ uvicorn main:app --reload
 
 <td align="center">
 <img src="https://ui-avatars.com/api/?name=Adamya+Agarwal&background=f59e0b&color=fff&size=120" width="100px"/><br/>
-<b>c</b><br/>
+<b>Adamya Agarwal</b><br/>
 🤖 AI & Product Strategist<br/>
 🧠 AI Agents • Growth • Product Marketing<br/>
 <a href="#">GitHub</a>
