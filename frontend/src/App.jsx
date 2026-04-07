@@ -670,20 +670,39 @@ const AuthPage = ({type,setUser,setPage,toast}) => {
   };
 
   const handle = async () => {
-    if(!validate()) return;
-    setLoading(true);
-    await sleep(1000);
-    const user = isLogin
-      ?(form.email==="admin@nagarseva.in"&&form.password==="Admin123"
-        ?{id:"USR-ADMIN",name:"Admin User",email:form.email,role:"admin",complaints:0}
-        :{id:"USR-001",name:form.email.split("@")[0].replace(/[._]/g," ").replace(/\b\w/g,c=>c.toUpperCase()),email:form.email,role:"user",complaints:3})
-      :{id:`USR-${Date.now()}`,name:form.name,email:form.email,phone:form.phone,role:form.role,complaints:0};
-    setUser(user);
-    toast(isLogin?`Welcome back, ${user.name.split(" ")[0]}!`:"Account created!","success");
-    setPage(user.role==="admin"?"admin":"dashboard");
-    setLoading(false);
-  };
+  if (!validate()) return;
+  setLoading(true);
 
+  try {
+    // 1. Point this to your actual FastAPI URL
+    const response = await fetch("http://localhost:8000/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: form.email,
+        password: form.password
+      }),
+    });
+
+    const result = await response.json();
+
+    if (response.ok) {
+      // 2. Use the REAL data from your backend (result.data.user)
+      setUser(result.data.user);
+      localStorage.setItem("token", result.data.access_token); // Save your JWT!
+      
+      toast(`Welcome back, ${result.data.user.name.split(" ")[0]}!`, "success");
+      setPage(result.data.user.role === "admin" ? "admin" : "dashboard");
+    } else {
+      // 3. This handles the 401 Unauthorized from your Python code
+      toast(result.detail || "Login failed", "error");
+    }
+  } catch (error) {
+    toast("Server connection failed", "error");
+  } finally {
+    setLoading(false);
+  }
+};
   return (
     <div style={{minHeight:"100vh",display:"grid",gridTemplateColumns:"1fr 1fr",background:"#fff"}}>
       {/* Left Panel */}
